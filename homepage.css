@@ -2,12 +2,9 @@ body {
     background-color: f2f2f2;
     margin: 0;
     font-family: Verdana;
-}
-  
-.navbar {
-    background:white;
-    padding: 1em;
-
+    font-size: 16px;
+    font-weight: normal;
+    
 }
 
 h1 {
@@ -25,14 +22,64 @@ section{
 }
 
 .container{
+    max-width: 1800px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
     place-content: space-between;
 }
 
-.socialmedia-nav{
-    display: flex;
-    justify-content: space-between;
+.d-flex {
+    display: flex !important;
 }
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.justify-content-between {
+    justify-content: space-between !important;
+}
+
+.justify-content-end {
+    justify-content: flex-end !important;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.mr-auto{
+    margin-right: auto !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.row {
+    display: flex;
+    flex-wrap: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+  
+.navbar {
+    background:white;
+    padding: 1em;
+
+}
+
+.social-media{
+    display: inline-block;
+    box-sizing: border-box;
+} 
 
 .icon {
     width: 1.5em;
@@ -49,7 +96,7 @@ section{
     max-width: 25%;
 }
 
-.menu-nav{
+.menu-nav ul{
     padding: 0;
 }
 
@@ -84,3 +131,4 @@ section{
     padding: 10px;
     max-height: 35em;
 }
+
