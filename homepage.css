@@ -1,13 +1,68 @@
 body {
-    background-color: lightblue;
-  }
+    background-color: f2f2f2;
+    margin: 0;
+    font-family: Verdana;
+}
   
-  h1 {
+.navbar {
+    background:white;
+    padding: 1em;
+
+}
+
+h1 {
     color: white;
     text-align: center;
   }
   
-  p {
+p {
     font-family: verdana;
     font-size: 20px;
-  }
+}
+
+section{
+    padding: 5em 2em;
+}
+
+.container{
+    display: flex;
+    place-content: space-between;
+}
+
+.socialmedia-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.col-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+ }
+
+.col-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.menu-nav{
+    padding: 0;
+}
+
+.menu-nav li{
+    display: inline;
+}
+
+.menu-nav li a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    color:rgb(58, 56, 56);
+}
