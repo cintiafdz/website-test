@@ -8,8 +8,11 @@ body {
 }
 
 h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
     color: white;
     text-align: center;
+    
   }
   
 p {
@@ -115,8 +118,9 @@ section{
 }
 
 .hero{
-    margin: 0px;
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .hero{
