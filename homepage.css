@@ -66,6 +66,18 @@ section{
     padding: 10px;
     color:rgb(58, 56, 56);
 }
+
+.hero{
+    margin: 0px;
+    padding: 0;
+}
+
+.hero{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
 .column{
     float: left;
     width: 50%;
