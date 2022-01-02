@@ -9,15 +9,23 @@ body {
 
 h1 {
     font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
     font-weight: bold;
     color: white;
     text-align: center;
-    
   }
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
   
 p {
     font-family: verdana;
-    font-size: 20px;
+    font-size: 12px;
 }
 
 section{
@@ -134,5 +142,7 @@ section{
     width: 50%;
     padding: 10px;
     max-height: 35em;
+    justify-items: center;
+    padding-left: 200px;
 }
 
