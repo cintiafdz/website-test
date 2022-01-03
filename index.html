@@ -4,6 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="carousel.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -168,7 +169,7 @@
 
     <div class="container">
       <div class="align-items-center">
-        <h6><span>Influencers</span>Department</h6><br>
+        <h6><span>Influencers</span> Department</h6><br>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, blanditiis nostrum. Debitis accusantium tempore aliquam molestiae omnis consectetur.</p><br>
       </div>
     </div>
@@ -199,7 +200,58 @@
         </figure>
       </div><br>
     </section>
-    <button class="btn btn-custom btn-danger" type="submit" onclick="alert('See more influencers')">SEE MORE INFLUENCERS</button>
+
+    <div class="container">
+      <div class="align-items-center">
+        <button class="btn btn-custom btn-danger" type="submit" onclick="alert('See more influencers')">SEE MORE INFLUENCERS</button>
+      </div>
+    </div>
+
+    <br>
+    
+    <section class="carousel">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>   
+        <!-- Wrapper for carousel items -->
+        <div class="carousel-inner">
+
+          <div class="item active">
+            <h6 class="testimonial"><span>What</span>People Say</h6>
+            <div class="img-box"><img src="/images/individual_01.jpg" alt="A"></div>
+            <p class="testimonial">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <p class="overview"><b>Your Name</b> (Designation)</p>
+          </div>
+
+          <div class="item">
+            <h6 class="testimonial"><span>What</span>People Say</h6>
+            <div class="img-box"><img src="/images/individual_01.jpg" alt="B"></div>
+            <p class="testimonial">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <p class="overview"><b>Your Name</b> (Designation)</p>
+          </div>
+
+          <div class="item">
+            <h6 class="testimonial"><span>What</span>People Say</h6>
+            <div class="img-box"><img src="/images/individual_01.jpg" alt="C"></div>
+            <p class="testimonial">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <p class="overview"><b>Your Name</b> (Designation)</p>
+          </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
 
 
     
