@@ -19,12 +19,22 @@ h1 {
     text-align: center;
 }
 
+h2{
+    font-weight: bold;
+}
+
+h3{
+    font-weight: bold;
+}
+
 h4{
     text-align: left;
+    font-weight: bold;
 }
 
 h5 {
     font-size: 30px;
+    font-weight: bold;
 }
 
 h6{
@@ -194,4 +204,9 @@ hr {
 .join-info button{
   margin: 0;
   position: relative;
+}
+
+span{
+    color: brown;
+    font-weight: bold;
 }
