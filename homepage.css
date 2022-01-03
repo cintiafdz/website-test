@@ -1,15 +1,23 @@
+@font-face {
+    font-family: 'museo';
+    src: local('museo'),
+         url(museo.otf) format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-color: f2f2f2;
     margin: 0;
 }
 
 h1 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'museo';
     font-size: 40px;
     font-weight: bold;
     color: white;
     text-align: center;
-  }
+}
 
 h5 {
     font-size: 30px;
@@ -32,6 +40,10 @@ section{
     margin-left: auto;
     display: flex;
     place-content: space-between;
+}
+
+.btn.btn-custom {
+    border-radius: 20px;
 }
 
 hr {
@@ -147,4 +159,9 @@ hr {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.services{
+    justify-content:center;
+
 }
