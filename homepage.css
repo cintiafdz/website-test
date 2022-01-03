@@ -177,6 +177,17 @@ hr {
     justify-content:center;
 }
 
-.banner{
+.bannermed{
     justify-content: center;
+}
+
+.about-info
+{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.join-info button{
+  margin: 0;
+  position: relative;
 }
