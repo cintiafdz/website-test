@@ -260,3 +260,34 @@ mark{
     left: 0px;
     padding-top: 20px;
 }
+
+.rectangle li{
+    list-style: none;
+}
+
+.rectangle a{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em .8em;
+    *padding: .4em;
+    margin: .5em 0 .5em 2.5em;
+    background: #ddd;
+    color: #444;
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+
+.rectangle a:before{
+    content: ">";
+    color: white;
+    position: absolute;
+    left: -2.5em;
+    top: 50%;
+    margin-top: -1em;
+    background: #0c0c0c;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-weight: bold;
+  }
