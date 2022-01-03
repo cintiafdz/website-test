@@ -34,6 +34,11 @@ section{
     place-content: space-between;
 }
 
+hr {
+	border: 0;
+	border-top: 2px solid rgb(17, 17, 17);
+}
+
 .d-flex {
     display: flex !important;
 }
