@@ -191,19 +191,43 @@ hr {
     justify-content: center;
 }
 
+.img_container{
+    position: relative;
+    width: 100%;
+}
+
+.img_container img{
+    width: 100%;
+    height: auto;
+}
+
+.img_container .btn-on-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .about-info
 {
     text-align: justify;
     text-justify: inter-word;
 }
 
-.influencers-info{
-    justify-content: center;
+.influencers{
+    display: inline-block;
 }
 
-.join-info button{
-  margin: 0;
-  position: relative;
+.influencers img{
+    display: block;
+    margin: 0 auto;
+}
+
+figcaption{
+    background-color: rgb(255, 255, 255);
+    border: thin silver solid;
+    text-align: justify;
+    width: 100%;
+    padding: 8px;
 }
 
 span{
