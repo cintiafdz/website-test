@@ -26,7 +26,7 @@
     </style>
 </head>
 <body>
-    <div class="container navbar justify-content-end">
+    <div class="container nav-bar justify-content-end">
       <div class= "row d-flex">
         <nav class= "social-media">
             <ul class="mb-0 d-flex mr-auto">
@@ -225,7 +225,7 @@
         <div class="carousel-inner">
 
           <div class="item active">
-            <h6 class="testimonial"><span>What</span> People Say</h6>
+            <h6 class="testimonial" style="font-family: 'Open Sans'; font-size: 26px;font-weight: 600;"><span>What</span> People Say</h6>
             <div class="img-box"><img src="images/individual_01.jpg" alt="A"></div>
             <p class="testimonial">"Lorem Ipsum has been the industry's standard dummy<br> text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived<br> not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."</p>
             <p class="overview"><b>Your Name</b> (Designation)</p>
@@ -262,20 +262,20 @@
     <div class="footer">
       <div class="footer-content container">
         <div class="col-4 footer-section about justify-content-center">
-          <p style="font-family: 'Open Sans'; font-size: 12px;"> <img class="icon text-center" src="images/location_white.png" alt="Location">&nbsp;&nbsp; Address: ESTABLISHED 1860<br>
+          <p style="font-family: 'Open Sans'; font-size: 14px;"> <img class="icon text-center" src="images/location_white.png" alt="Location">&nbsp;&nbsp; <b>Address:</b> ESTABLISHED 1860<br>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;721 square miles<br>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Approximate population is 55,691<br>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;At the crossroads of l-135
           </p><br>
           
-          <p style="font-family: 'Open Sans'; font-size: 12px;"><img class="icon text-center" src="images/call_white.png" alt="Call">&nbsp;&nbsp; Call: 000 0000 000
+          <p style="font-family: 'Open Sans'; font-size: 14px;"><img class="icon text-center" src="images/call_white.png" alt="Call">&nbsp;&nbsp; <b>Call:</b> 000 0000 000
           </p><br>
           
-          <p style="font-family: 'Open Sans'; font-size: 12px;"><img class="icon text-center" src="images/email_white.png" alt="Email">&nbsp;&nbsp; E-mail: infoadress125@gmail.com
+          <p style="font-family: 'Open Sans'; font-size: 14px;"><img class="icon text-center" src="images/email_white.png" alt="Email">&nbsp;&nbsp; <b>E-mail:</b> infoadress125@gmail.com
           </p>
         </div>
-        <div class="col-3 footer-section links">
-          <p style="font-family: 'Open Sans'; font-size: 14px; font-weight: bold;">
+        <div class="col-3 footer-custom links">
+          <p style="font-family: 'Open Sans'; font-size: 16px; font-weight: bold;">
             Quick Links
           </p>
           <li><a href="#">HOME</a></li>
@@ -287,8 +287,19 @@
           <li><a href="#">JAIL PROJECT</a></li>
         </div>
         <div class="col-5 footer-suscribe">
-          <p>Subscribe To our Newsletter
+          <p style="font-family: 'Open Sans'; font-size: 16px; font-weight: bold;">Subscribe To our Newsletter
           </p>
+          <div class="newsletter text-center">
+            <div class="newsletter-name-address">
+              <input type="text" placeholder="Name" name="name" required>
+              <input type="text" placeholder="Email address" name="mail" required>
+            </div>
+            <br>
+            <div class="newsletter-message">
+              <input type="text" placeholder="Message" name="Message">
+            </div>
+          </div><br>
+        <button class="btn btn-custom btn-danger" type="submit" onclick="alert('Suscribe now')"><b>SUSCRIBE NOW</b></button>
         </div>
         </div>
       <div class="footer-bottom">
