@@ -1,29 +1,29 @@
-.carousel{
+.carousel-custom{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: rgb(243, 237, 237);
 }
-.carousel .item {
+.carousel-custom .item {
 	color: rgb(0, 0, 0);
 	font-size: 14px;
     text-align: center;
 	overflow: hidden;
     min-height: 400px;
 }
-.carousel .item .img-box {
+.carousel-custom .item .img-box {
 	width: 135px;
 	height: 135px;
 	margin: 0 auto;
 	padding: 5px;
 	border-radius: 50%;
 }
-.carousel .img-box img {
+.carousel-custom .img-box img {
 	width: 100%;
 	height: 100%;
 	border-radius: 50%;
 }
-.carousel .testimonial {
+.carousel-custom .testimonial {
     text-align: center;
 }
 
